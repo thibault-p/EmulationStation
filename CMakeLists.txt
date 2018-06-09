@@ -100,6 +100,7 @@ set(COMMON_INCLUDE_DIRS
     ${EIGEN3_INCLUDE_DIR}
     ${CURL_INCLUDE_DIR}
     ${CMAKE_CURRENT_SOURCE_DIR}/external
+    ${CMAKE_CURRENT_SOURCE_DIR}/external/pistache/include()
     ${CMAKE_CURRENT_SOURCE_DIR}/es-core/src
 )
 
@@ -150,6 +151,7 @@ set(COMMON_LIBRARIES
     ${CURL_LIBRARIES}
     pugixml
     nanosvg
+    pistache
 )
 
 #add ALSA for Linux

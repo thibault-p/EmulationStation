@@ -44,6 +44,10 @@ set(ES_HEADERS
     # Animations
     ${CMAKE_CURRENT_SOURCE_DIR}/src/animations/LaunchAnimation.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/animations/MoveCameraAnimation.h
+
+    # Server 
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/server/WebService.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/server/dtos/SystemDto.h
 )
 
 set(ES_SOURCES
@@ -86,6 +90,10 @@ set(ES_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/views/gamelist/GridGameListView.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/views/SystemView.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/views/ViewController.cpp
+
+    # Server
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/server/WebService.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/server/dtos/SystemDto.cpp
 )
 
 #-------------------------------------------------------------------------------
